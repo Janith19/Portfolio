@@ -5,9 +5,11 @@ const nextConfig: NextConfig = {
   compiler: {
     styledComponents: false, // if you use Tailwind, can leave false
   },
+
   images: {
     // allow hosting images from your domain or GitHub/other sources
     domains: ["raw.githubusercontent.com", "avatars.githubusercontent.com"],
+    qualities: [75, 50, 25, 10],
   },
   async headers() {
     return [
