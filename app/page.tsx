@@ -52,24 +52,25 @@ const projects = [
     title: "Intelligent Pedestrian Signal System",
     desc: "Final-year research project • Adaptive traffic signals with real-time CNN-based pedestrian detection (80% accuracy) • Weather-aware timing • IoT sensor integration on Raspberry Pi 4 • Reduced crossing time to ~18.5s • ResearchGate publication",
     tags: ["Python", "CNN", "IoT", "Raspberry Pi", "Research"],
+    link: "https://www.researchgate.net/publication/385380140_IoT-Enabled_Intelligent_Pedestrian_Crossing_Signal_Light_System_with_Violation_Tracking",
   },
   {
     title: "Scrabble Timer",
     desc: "Competitive chess-clock style timer for global Scrabble players • Penalty system with auto-disqualification • Intuitive UX for fair gameplay • Cross-platform mobile app",
     tags: ["Flutter", "Mobile", "Game Utilities"],
-    link: "GitHub Repository",
+    link: "https://github.com/Janith19/Scrabble_Timer",
   },
   {
     title: "Email Allocator Browser Extension",
     desc: "Chrome/Firefox extension that auto-categorizes Gmail with custom visual labels & colors • Persistent storage • Dynamic email detection • Productivity tool built from scratch",
     tags: ["JavaScript", "Browser Extension", "Chrome API"],
-    link: "GitHub Link",
+    link: "https://github.com/Janith19/email-allocator",
   },
   {
     title: "Full-Stack Book Shop Website",
     desc: "Complete MERN e-commerce platform • Responsive design • Admin dashboard • Course capstone project",
     tags: ["MERN", "Next.js", "Tailwind", "Full-Stack"],
-    link: "Demo Website",
+    link: "https://github.com/Janith19/TheBookHub",
   },
 ];
 const float = {
@@ -282,7 +283,7 @@ export default function Home() {
 
                 {/* Optional secondary CTA */}
                 <motion.a
-                  href="#projects"
+                  href="/projects"
                   className="px-8 py-4 rounded-xl border border-cyan-500/40 text-cyan-300 hover:bg-cyan-950/30 transition-colors"
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.97 }}
@@ -323,12 +324,12 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <motion.p variants={glitch}>
-              B.Sc. Physics & Electronics (UoK) turned Full-Stack Software
-              Engineer. Currently building responsive frontends, scalable
-              backends, and intelligent IoT systems at Sistena.
+              B.Sc. Physics & Electronics (UoK) Graduate turned Full-Stack
+              Software Engineer. Currently building responsive frontends,
+              scalable backends, and intelligent IoT systems at Sistena.
             </motion.p>
             <motion.p variants={glitch}>
-              I thrive close to the metal — writing clean, testable code and
+              I thrive close to the metal - writing clean, testable code and
               obsessing over failure modes before they become incidents.
             </motion.p>
             <motion.p variants={glitch}>
@@ -388,10 +389,18 @@ export default function Home() {
                 </div>
                 {project.link && (
                   <a
-                    href="#"
-                    className="mt-6 inline-block text-cyan-400 hover:text-cyan-300 transition-colors"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="
+      mt-6 inline-flex items-center gap-2
+      text-cyan-400 hover:text-cyan-300 font-medium
+      transition-colors duration-300 group
+    "
                   >
-                    View Project →
+                    <span className="group-hover:translate-x-1 transition-transform">
+                      View Project →
+                    </span>
                   </a>
                 )}
               </motion.div>
