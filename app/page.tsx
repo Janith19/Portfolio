@@ -67,10 +67,10 @@ const projects = [
     link: "https://github.com/Janith19/email-allocator",
   },
   {
-    title: "Full-Stack Book Shop Website",
-    desc: "Complete MERN e-commerce platform • Responsive design • Admin dashboard • Course capstone project",
-    tags: ["MERN", "Next.js", "Tailwind", "Full-Stack"],
-    link: "https://github.com/Janith19/TheBookHub",
+    title: "Zero-Budget Home Server",
+    desc: "personal home server using an old laptop and Ubuntu Server LTS",
+    tags: ["Ubuntu Server LTS", "Docker", "n8n", "Linux"],
+    link: "https://dev.to/janith19/building-a-home-server-on-a-zero-budget-no-raspberry-pi-needed-5g5h",
   },
 ];
 const float = {

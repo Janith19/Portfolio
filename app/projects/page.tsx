@@ -90,6 +90,27 @@ const projectsData = [
     links: { github: "https://github.com/Janith19/Scrabble_Timer" },
   },
   {
+    title: "Zero-Budget Home Server (Self-Hosted Infrastructure)",
+    subtitle: "Repurposed Hardware for Personal Cloud Services",
+    overview:
+      "Built a personal home server using an old laptop and Ubuntu Server LTS to explore self-hosting and Linux system administration.",
+    role: "Developer",
+    timeline: "2025 – 2026",
+    tech: ["Ubuntu Server LTS", "Docker", "n8n", "Linux"],
+    metrics: [{ value: "4+", label: "Self-Hosted Services Running" }],
+    challenges:
+      "Hardware limitations, service containerization, remote access setup.",
+    solution:
+      "Installed Ubuntu Server on repurposed laptop • Configured Docker containers for services • Set up dynamic DNS and secure remote access.",
+    outcome:
+      "Cost-effective personal cloud infrastructure • Gained hands-on Linux and networking experience.",
+
+    links: {
+      "Dev.to":
+        "https://dev.to/janith19/building-a-home-server-on-a-zero-budget-no-raspberry-pi-needed-5g5h",
+    },
+  },
+  {
     title: "Email Allocator Browser Extension",
     subtitle: "Gmail Productivity Tool",
     overview:
