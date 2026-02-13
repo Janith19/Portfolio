@@ -90,6 +90,41 @@ const projectsData = [
     links: { github: "https://github.com/Janith19/Scrabble_Timer" },
   },
   {
+    title: "Full-Stack Issue Tracker",
+    subtitle: "React + Express + MongoDB Issue Management App",
+    overview:
+      "Modern issue tracking application with secure authentication, CRUD operations, advanced filtering, pagination, and export features.",
+    role: "Full-Stack Developer",
+    timeline: "2026",
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Zustand",
+    ],
+    metrics: [
+      { value: "100%", label: "Secure CRUD & Auth Flow" },
+      { value: "4", label: "Status Workflow Stages" },
+      { value: "Server-side", label: "Pagination + Filtering" },
+    ],
+    challenges:
+      "Implementing secure httpOnly JWT auth, debounced search/filter, consistent UI states, and confirmation flows",
+    solution:
+      "Built responsive React + TypeScript frontend with Zustand • Created Express + TypeScript REST API • Secured routes with JWT middleware • Used Mongoose for data modeling • Added live counts, color-coded badges, CSV/JSON export, and delete/resolution confirmations",
+    outcome:
+      "Fully functional, production-ready issue tracker with clean UI, secure authentication, and efficient data handling – demonstrates modern full-stack skills.",
+    images: ["/issue-tracker2.png", "/issue-tracker1.png"],
+    links: {
+      demo: "https://issuetracker-1-jb1b.onrender.com/login",
+      github: "https://github.com/Janith19/IssueTracker",
+    },
+  },
+  {
     title: "Zero-Budget Home Server (Self-Hosted Infrastructure)",
     subtitle: "Repurposed Hardware for Personal Cloud Services",
     overview:
@@ -125,25 +160,6 @@ const projectsData = [
     outcome: "Improved email triage speed and visual organization.",
     images: ["/Email/Popup.png", "/Email/badge.png"],
     links: { github: "https://github.com/Janith19/email-allocator" },
-  },
-  {
-    title: "Full-Stack Book Shop Website",
-    subtitle: "MERN E-commerce Platform",
-    overview:
-      "Basic e-commerce platform with responsive design, admin dashboard, and user authentication.",
-    role: "Full-Stack Developer",
-    timeline: "2023",
-    tech: ["HTML", "CSS", "JavaScript"],
-    metrics: [{ value: "100%", label: "Functional E-commerce Flow" }],
-    challenges: "web development basics",
-    solution:
-      " Followed tutorial • Implemented responsive design • Implemented user authentication • Implemented admin dashboard.",
-    outcome: "Fully working demo site showcasing full-stack capabilities.",
-    images: ["/UI1.png"],
-    links: {
-      demo: "https://brilliant-platypus-31b904.netlify.app/",
-      github: "https://github.com/Janith19/TheBookHub",
-    },
   },
 ];
 
