@@ -120,7 +120,7 @@ const projectsData = [
       "Fully functional, production-ready issue tracker with clean UI, secure authentication, and efficient data handling – demonstrates modern full-stack skills.",
     images: ["/issue-tracker2.png", "/issue-tracker1.png"],
     links: {
-      demo: "https://issuetracker-1-jb1b.onrender.com/login",
+      demo: "https://issuetracker-1-jb1b.onrender.com",
       github: "https://github.com/Janith19/IssueTracker",
     },
   },
